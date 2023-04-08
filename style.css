@@ -20,7 +20,15 @@ body {
   font-size: 24px;
 }
 #carefor .imgbox {
-  width: 500px;
+  width: 100%;
+}
+@media screen and (max: width 767px) {
+  #carefor .textbox h1 {
+    font-size: 50px;
+  }
+  #carefor .textbox h4 {
+    font-size: 14px;
+  }
 }
 
 #welcome {
@@ -60,6 +68,40 @@ body {
 }
 #welcome .wid {
   width: 580px;
+}
+@media screen and (max-width: 767px) {
+  #welcome .textbox h1 {
+    font-size: 20px;
+  }
+  #welcome .textbox h3 {
+    font-size: 12px;
+  }
+  #welcome .textbox h2 {
+    font-size: 23px;
+  }
+  #welcome .textbox h6 {
+    font-size: 11px;
+  }
+  #welcome .textbox .icon {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 1500px) {
+  #welcome .textbox h1 {
+    font-size: 40px;
+  }
+  #welcome .textbox h3 {
+    font-size: 27px;
+  }
+  #welcome .textbox h2 {
+    font-size: 43px;
+  }
+  #welcome .textbox h6 {
+    font-size: 25px;
+  }
+  #welcome .textbox .icon {
+    font-size: 40px;
+  }
 }
 
 #aboutus {
@@ -102,7 +144,43 @@ body {
   margin: 15px 0;
 }
 #aboutus .imgbox {
-  width: 450px;
+  width: 90%;
+}
+@media screen and (max-width: 767px) {
+  #aboutus .imgbox .textbox h1 {
+    font-size: 25px;
+  }
+  #aboutus .imgbox .textbox h3, #aboutus .imgbox .textbox p {
+    font-size: 15px;
+    line-height: 1.3;
+  }
+  #aboutus .imgbox .textbox p {
+    font-size: 12px;
+    line-height: 1.2;
+  }
+  #aboutus .imgbox .textbox h4 {
+    font-size: 15px;
+  }
+  #aboutus .imgbox .textbox .bigicon {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 1500px) {
+  #aboutus .imgbox .textbox h1 {
+    font-size: 45px;
+  }
+  #aboutus .imgbox .textbox h3, #aboutus .imgbox .textbox p {
+    font-size: 35px;
+  }
+  #aboutus .imgbox .textbox p {
+    font-size: 25px;
+  }
+  #aboutus .imgbox .textbox h4 {
+    font-size: 35px;
+  }
+  #aboutus .imgbox .textbox .bigicon {
+    font-size: 40px;
+  }
 }
 
 #ourtrainers {
@@ -303,7 +381,6 @@ body {
   color: #bed8d1;
   margin: 15px 0;
 }
-
 #ourservices {
   padding: 40px 0;
 }
