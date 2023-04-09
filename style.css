@@ -435,6 +435,26 @@ body {
     font-size: 20px;
   }
 }
+@media screen and (min-width: 1500px) {
+  #questions h1 {
+    font-size: 46px;
+  }
+  #questions h3 {
+    font-size: 27px;
+  }
+  #questions .textbox h2, #questions .textbox h4 {
+    font-size: 35px;
+  }
+  #questions .textbox p {
+    font-size: 25px;
+  }
+  #questions .icon i {
+    font-size: 28px;
+  }
+  #questions .bigicon i {
+    font-size: 40px;
+  }
+}
 
 #doggerblog {
   padding: 40px 0;
