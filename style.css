@@ -570,4 +570,38 @@ body {
 #ourservices .bigicon i {
   font-size: 30px;
   margin: 15px 0;
+}
+@media screen and (max-width: 767px) {
+  #ourservices h1 {
+    font-size: 25px;
+  }
+  #ourservices h3 {
+    font-size: 12px;
+  }
+  #ourservices .textbox h2 {
+    font-size: 18px;
+  }
+  #ourservices .textbox .icon {
+    font-size: 50px;
+  }
+  #ourservices .bigicon i {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 1500px) {
+  #ourservices h1 {
+    font-size: 45px;
+  }
+  #ourservices h3 {
+    font-size: 28px;
+  }
+  #ourservices .textbox h2 {
+    font-size: 32px;
+  }
+  #ourservices .textbox .icon {
+    font-size: 70px;
+  }
+  #ourservices .bigicon i {
+    font-size: 40px;
+  }
 }/*# sourceMappingURL=style.css.map */
