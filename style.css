@@ -230,6 +230,41 @@ body {
   font-size: 30px;
   margin: 15px 0;
 }
+@media screen and (max-width: 767px) {
+  #ourtrainers h1 {
+    font-size: 28px;
+  }
+  #ourtrainers h3, #ourtrainers h4 {
+    font-size: 15px;
+    line-height: 1.2;
+  }
+  #ourtrainers .box .textbox {
+    padding: 9px;
+  }
+  #ourtrainers .box h2 {
+    font-size: 15px;
+  }
+  #ourtrainers .bigicon i {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 1500px) {
+  #ourtrainers h1 {
+    font-size: 48px;
+  }
+  #ourtrainers h3, #ourtrainers h4 {
+    font-size: 30px;
+  }
+  #ourtrainers .box .textbox {
+    padding: 21px;
+  }
+  #ourtrainers .box h2 {
+    font-size: 35px;
+  }
+  #ourtrainers .bigicon i {
+    font-size: 40px;
+  }
+}
 
 #pricingtable {
   padding: 40px 0;
