@@ -12,7 +12,7 @@ body {
 }
 #carefor .textbox h1 {
   font-weight: 700;
-  font-size: 70px;
+  font-size: 60px;
   margin: 0 0 10px;
 }
 #carefor .textbox h4 {
@@ -24,7 +24,7 @@ body {
 }
 @media screen and (max: width 767px) {
   #carefor .textbox h1 {
-    font-size: 50px;
+    font-size: 30px;
   }
   #carefor .textbox h4 {
     font-size: 14px;
